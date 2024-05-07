@@ -1,0 +1,126 @@
+/* header background rgba(255, 255, 255, 0.9)  footer background #e8e8e6;; #363945; #5b6b7f;
+grey #484551;
+blue :#4fa3db;*/
+*{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto; 
+    font-style: normal;
+}
+header{
+    position: sticky;
+    top : 0;
+    background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+.logo-css{
+    margin-left: 45px;
+    width: 69px;
+}
+
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #4fa3db;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a:hover{
+    color: #484551;
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-section h1{
+    font-size: 50px;
+}
+
+.css-span{
+    color: #4fa3db;
+}
+
+.about-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watchvideo-btn{
+    height: 51px;
+    width: 186px;
+    font-size: 21px;
+    background-color: #4fa3db;
+    border-radius: 62px;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+
+.watchvideo-btn:hover{
+    background-color: #484551;
+    border: 5px solid pink;
+}
+
+.projects-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project h3{
+    color: #4fa3db;
+    font-size: 23px;
+}
+
+.project p{
+    font-size: 14px;
+}
+
+.project a{
+    text-decoration: none;
+    color: #484551;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #484551;
+   
+}
+
+section{
+    margin-top: 40px;
+}
